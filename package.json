@@ -1,0 +1,82 @@
+{
+  "name": "code-word",
+  "displayName": "CodeWord",
+  "description": "CodeWord brings Scripture into your development workflow. Schedule Bible reading plans or meditation passages, and Scripture opens quietly when you need it.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.102.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/codeword.git"
+  },
+  "main": "./dist/extension.js",
+  "contributes": {
+    "configuration": {
+      "type": "object",
+      "title": "CodeWord Extension Settings",
+      "properties": {
+        "CodeWord.meditation.books": {
+          "type": "array",
+          "default": [],
+          "description": "List of verses to show in Meditation mode"
+        },
+        "CodeWord.mode": {
+          "type": "string",
+          "enum": [
+            "Meditation",
+            "Reading Plan"
+          ],
+          "default": "Reading Plan",
+          "description": "Choose the mode for the Bible extension"
+        },
+        "CodeWord.times": {
+          "type": "array",
+          "default": [],
+          "description": "Times of the day to show bible (HH:MM)"
+        }
+      }
+    },
+    "commands": [
+      {
+        "command": "code-word.unsheath",
+        "title": "CodeWord: Unsheath"
+      }
+    ]
+  },
+  "files": [
+    "bible-data"
+  ],
+  "scripts": {
+    "vscode:prepublish": "pnpm run package",
+    "compile": "pnpm run check-types && pnpm run lint && node esbuild.js",
+    "watch": "npm-run-all -p watch:*",
+    "watch:esbuild": "node esbuild.js --watch",
+    "watch:tsc": "tsc --noEmit --watch --project tsconfig.json",
+    "package": "pnpm run check-types && pnpm run lint && node esbuild.js --production",
+    "compile-tests": "tsc -p . --outDir out",
+    "watch-tests": "tsc -p . -w --outDir out",
+    "pretest": "pnpm run compile-tests && pnpm run compile && pnpm run lint",
+    "check-types": "tsc --noEmit",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.106.1",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "22.x",
+    "typescript-eslint": "^8.48.1",
+    "eslint": "^9.39.1",
+    "esbuild": "^0.27.1",
+    "npm-run-all": "^4.1.5",
+    "typescript": "^5.9.3",
+    "@vscode/test-cli": "^0.0.12",
+    "@vscode/test-electron": "^2.5.2"
+  }
+}

@@ -1,0 +1,1462 @@
+[
+  {
+    "date": "01-01",
+    "passage": "Genesis 1-3"
+  },
+  {
+    "date": "01-02",
+    "passage": "Genesis 4-7"
+  },
+  {
+    "date": "01-03",
+    "passage": "Genesis 8-11"
+  },
+  {
+    "date": "01-04",
+    "passage": "Job 1-5"
+  },
+  {
+    "date": "01-05",
+    "passage": "Job 6-9"
+  },
+  {
+    "date": "01-06",
+    "passage": "Job 10-15"
+  },
+  {
+    "date": "01-07",
+    "passage": "Job 16-20"
+  },
+  {
+    "date": "01-08",
+    "passage": "Job 21-26"
+  },
+  {
+    "date": "01-09",
+    "passage": "Job 27-31"
+  },
+  {
+    "date": "01-10",
+    "passage": "Job 32-35"
+  },
+  {
+    "date": "01-11",
+    "passage": "Job 36-39"
+  },
+  {
+    "date": "01-12",
+    "passage": "Job 40-42; Genesis 12-13"
+  },
+  {
+    "date": "01-13",
+    "passage": "Genesis 14-17"
+  },
+  {
+    "date": "01-14",
+    "passage": "Genesis 18-20"
+  },
+  {
+    "date": "01-15",
+    "passage": "Genesis 21-23"
+  },
+  {
+    "date": "01-16",
+    "passage": "Genesis 24-25"
+  },
+  {
+    "date": "01-17",
+    "passage": "Genesis 26-27"
+  },
+  {
+    "date": "01-18",
+    "passage": "Genesis 28-30"
+  },
+  {
+    "date": "01-19",
+    "passage": "Genesis 31-32"
+  },
+  {
+    "date": "01-20",
+    "passage": "Genesis 33-35"
+  },
+  {
+    "date": "01-21",
+    "passage": "Genesis 36-38"
+  },
+  {
+    "date": "01-22",
+    "passage": "Genesis 39-40"
+  },
+  {
+    "date": "01-23",
+    "passage": "Genesis 41-42"
+  },
+  {
+    "date": "01-24",
+    "passage": "Genesis 43-45"
+  },
+  {
+    "date": "01-25",
+    "passage": "Genesis 46-48"
+  },
+  {
+    "date": "01-26",
+    "passage": "Genesis 49-50; Exodus 1"
+  },
+  {
+    "date": "01-27",
+    "passage": "Exodus 2-4"
+  },
+  {
+    "date": "01-28",
+    "passage": "Exodus 5-7"
+  },
+  {
+    "date": "01-29",
+    "passage": "Exodus 8-10"
+  },
+  {
+    "date": "01-30",
+    "passage": "Exodus 11-12"
+  },
+  {
+    "date": "01-31",
+    "passage": "Exodus 13-15"
+  },
+  {
+    "date": "02-01",
+    "passage": "Exodus 16-18"
+  },
+  {
+    "date": "02-02",
+    "passage": "Exodus 19-21"
+  },
+  {
+    "date": "02-03",
+    "passage": "Exodus 22-24"
+  },
+  {
+    "date": "02-04",
+    "passage": "Exodus 25-27"
+  },
+  {
+    "date": "02-05",
+    "passage": "Exodus 28-29"
+  },
+  {
+    "date": "02-06",
+    "passage": "Exodus 30-31"
+  },
+  {
+    "date": "02-07",
+    "passage": "Exodus 32-34"
+  },
+  {
+    "date": "02-08",
+    "passage": "Exodus 35-36"
+  },
+  {
+    "date": "02-09",
+    "passage": "Exodus 37-39"
+  },
+  {
+    "date": "02-10",
+    "passage": "Exodus 40; Leviticus 1-2"
+  },
+  {
+    "date": "02-11",
+    "passage": "Leviticus 3-5"
+  },
+  {
+    "date": "02-12",
+    "passage": "Leviticus 6-7"
+  },
+  {
+    "date": "02-13",
+    "passage": "Leviticus 8-10"
+  },
+  {
+    "date": "02-14",
+    "passage": "Leviticus 11-13"
+  },
+  {
+    "date": "02-15",
+    "passage": "Leviticus 14"
+  },
+  {
+    "date": "02-16",
+    "passage": "Leviticus 15-16"
+  },
+  {
+    "date": "02-17",
+    "passage": "Leviticus 17-19"
+  },
+  {
+    "date": "02-18",
+    "passage": "Leviticus 20-22"
+  },
+  {
+    "date": "02-19",
+    "passage": "Leviticus 23-24"
+  },
+  {
+    "date": "02-20",
+    "passage": "Leviticus 25-26"
+  },
+  {
+    "date": "02-21",
+    "passage": "Leviticus 27; Numbers 1"
+  },
+  {
+    "date": "02-22",
+    "passage": "Numbers 2-3"
+  },
+  {
+    "date": "02-23",
+    "passage": "Numbers 4"
+  },
+  {
+    "date": "02-24",
+    "passage": "Numbers 5-6"
+  },
+  {
+    "date": "02-25",
+    "passage": "Numbers 7-9"
+  },
+  {
+    "date": "02-26",
+    "passage": "Numbers 10-11"
+  },
+  {
+    "date": "02-27",
+    "passage": "Numbers 12-14"
+  },
+  {
+    "date": "02-28",
+    "passage": "Numbers 15; Psalm 90; Numbers 16"
+  },
+  {
+    "date": "03-01",
+    "passage": "Numbers 17-18"
+  },
+  {
+    "date": "03-02",
+    "passage": "Numbers 19-21"
+  },
+  {
+    "date": "03-03",
+    "passage": "Numbers 22-23"
+  },
+  {
+    "date": "03-04",
+    "passage": "Numbers 24-26"
+  },
+  {
+    "date": "03-05",
+    "passage": "Numbers 27-29"
+  },
+  {
+    "date": "03-06",
+    "passage": "Numbers 30-31"
+  },
+  {
+    "date": "03-07",
+    "passage": "Numbers 32-33"
+  },
+  {
+    "date": "03-08",
+    "passage": "Numbers 34-36"
+  },
+  {
+    "date": "03-09",
+    "passage": "Deuteronomy 1-2"
+  },
+  {
+    "date": "03-10",
+    "passage": "Deuteronomy 3-4"
+  },
+  {
+    "date": "03-11",
+    "passage": "Deuteronomy 5-7"
+  },
+  {
+    "date": "03-12",
+    "passage": "Deuteronomy 8-10"
+  },
+  {
+    "date": "03-13",
+    "passage": "Deuteronomy 11-12"
+  },
+  {
+    "date": "03-14",
+    "passage": "Deuteronomy 13-15"
+  },
+  {
+    "date": "03-15",
+    "passage": "Deuteronomy 16-18"
+  },
+  {
+    "date": "03-16",
+    "passage": "Deuteronomy 19-21"
+  },
+  {
+    "date": "03-17",
+    "passage": "Deuteronomy 22-24"
+  },
+  {
+    "date": "03-18",
+    "passage": "Deuteronomy 25-27"
+  },
+  {
+    "date": "03-19",
+    "passage": "Deuteronomy 28-29"
+  },
+  {
+    "date": "03-20",
+    "passage": "Deuteronomy 30-31"
+  },
+  {
+    "date": "03-21",
+    "passage": "Deuteronomy 32-33"
+  },
+  {
+    "date": "03-22",
+    "passage": "Deuteronomy 34; Psalm 91; Joshua 1-3"
+  },
+  {
+    "date": "03-23",
+    "passage": "Joshua 4-6"
+  },
+  {
+    "date": "03-24",
+    "passage": "Joshua 7-8"
+  },
+  {
+    "date": "03-25",
+    "passage": "Joshua 9-10"
+  },
+  {
+    "date": "03-26",
+    "passage": "Joshua 11-13"
+  },
+  {
+    "date": "03-27",
+    "passage": "Joshua 14-17"
+  },
+  {
+    "date": "03-28",
+    "passage": "Joshua 18-20"
+  },
+  {
+    "date": "03-29",
+    "passage": "Joshua 21-22"
+  },
+  {
+    "date": "03-30",
+    "passage": "Joshua 23-24; Judges 1"
+  },
+  {
+    "date": "03-31",
+    "passage": "Judges 2-3"
+  },
+  {
+    "date": "04-01",
+    "passage": "Judges 4-6"
+  },
+  {
+    "date": "04-02",
+    "passage": "Judges 7-8"
+  },
+  {
+    "date": "04-03",
+    "passage": "Judges 9-10"
+  },
+  {
+    "date": "04-04",
+    "passage": "Judges 11-12"
+  },
+  {
+    "date": "04-05",
+    "passage": "Judges 13-15"
+  },
+  {
+    "date": "04-06",
+    "passage": "Judges 16-18"
+  },
+  {
+    "date": "04-07",
+    "passage": "Judges 19-20"
+  },
+  {
+    "date": "04-08",
+    "passage": "Judges 21; Ruth 1-2"
+  },
+  {
+    "date": "04-09",
+    "passage": "Ruth 3-4; 1 Samuel 1"
+  },
+  {
+    "date": "04-10",
+    "passage": "1 Samuel 2-4"
+  },
+  {
+    "date": "04-11",
+    "passage": "1 Samuel 5-8"
+  },
+  {
+    "date": "04-12",
+    "passage": "1 Samuel 9-10"
+  },
+  {
+    "date": "04-13",
+    "passage": "1 Samuel 11-13"
+  },
+  {
+    "date": "04-14",
+    "passage": "1 Samuel 14-15"
+  },
+  {
+    "date": "04-15",
+    "passage": "1 Samuel 16-17"
+  },
+  {
+    "date": "04-16",
+    "passage": "1 Samuel 18-19"
+  },
+  {
+    "date": "04-17",
+    "passage": "1 Samuel 20; Psalm 11, 59; 1 Samuel 21"
+  },
+  {
+    "date": "04-18",
+    "passage": "1 Samuel 22-24"
+  },
+  {
+    "date": "04-19",
+    "passage": "Psalm 7, 27, 31, 34, 52, 56, 120, 140"
+  },
+  {
+    "date": "04-20",
+    "passage": "Psalm 141-142; 1 Samuel 25"
+  },
+  {
+    "date": "04-21",
+    "passage": "1 Samuel 26-27; Psalm 17, 35, 54, 63"
+  },
+  {
+    "date": "04-22",
+    "passage": "1 Samuel 28-30"
+  },
+  {
+    "date": "04-23",
+    "passage": "1 Samuel 31; Psalm 18, 121, 123-125, 128-130"
+  },
+  {
+    "date": "04-24",
+    "passage": "2 Samuel 1-3"
+  },
+  {
+    "date": "04-25",
+    "passage": "2 Samuel 4; Psalm 6, 8-10, 14"
+  },
+  {
+    "date": "04-26",
+    "passage": "Psalm 16, 19, 21; 1 Chronicles 1-2"
+  },
+  {
+    "date": "04-27",
+    "passage": "Psalm 43-45, 49, 84-85, 87"
+  },
+  {
+    "date": "04-28",
+    "passage": "1 Chronicles 3-5; Psalm 73"
+  },
+  {
+    "date": "04-29",
+    "passage": "Psalm 77-78"
+  },
+  {
+    "date": "04-30",
+    "passage": "1 Chronicles 6; Psalm 81, 88, 92-93; 1 Chronicles 7"
+  },
+  {
+    "date": "05-01",
+    "passage": "1 Chronicles 8-10"
+  },
+  {
+    "date": "05-02",
+    "passage": "Psalm 102-104; 2 Samuel 5"
+  },
+  {
+    "date": "05-03",
+    "passage": "1 Chronicles 11-12; Psalm 133"
+  },
+  {
+    "date": "05-04",
+    "passage": "Psalm 106-107; 1 Chronicles 13-14"
+  },
+  {
+    "date": "05-05",
+    "passage": "1 Chronicles 15-16; Psalm 1-2, 15, 22"
+  },
+  {
+    "date": "05-06",
+    "passage": "Psalm 23-24, 47, 68, 89"
+  },
+  {
+    "date": "05-07",
+    "passage": "Psalm 96, 100-101, 105, 132; 2 Samuel 6"
+  },
+  {
+    "date": "05-08",
+    "passage": "2 Samuel 7; 1 Chronicles 17; Psalm 25, 29"
+  },
+  {
+    "date": "05-09",
+    "passage": "Psalm 33, 36, 39; 2 Samuel 8-9; 1 Chronicles 18"
+  },
+  {
+    "date": "05-10",
+    "passage": "Psalm 50, 53, 60, 75; 2 Samuel 10; 1 Chronicles 19"
+  },
+  {
+    "date": "05-11",
+    "passage": "Psalm 20, 65-67, 69-70; 2 Samuel 11"
+  },
+  {
+    "date": "05-12",
+    "passage": "2 Samuel 12; 1 Chronicles 20; Psalm 32, 51"
+  },
+  {
+    "date": "05-13",
+    "passage": "Psalm 86, 122; 2 Samuel 13-14"
+  },
+  {
+    "date": "05-14",
+    "passage": "2 Samuel 15; Psalm 3-4, 12-13"
+  },
+  {
+    "date": "05-15",
+    "passage": "Psalm 28, 55; 2 Samuel 16-17"
+  },
+  {
+    "date": "05-16",
+    "passage": "2 Samuel 18; Psalm 26, 40, 58, 61"
+  },
+  {
+    "date": "05-17",
+    "passage": "Psalm 62, 64; 2 Samuel 19"
+  },
+  {
+    "date": "05-18",
+    "passage": "2 Samuel 20-21; Psalm 5, 38"
+  },
+  {
+    "date": "05-19",
+    "passage": "Psalm 41-42; 2 Samuel 22-23"
+  },
+  {
+    "date": "05-20",
+    "passage": "Psalm 57, 95, 97-99; 2 Samuel 24"
+  },
+  {
+    "date": "05-21",
+    "passage": "1 Chronicles 21-22; Psalm 30, 108-109"
+  },
+  {
+    "date": "05-22",
+    "passage": "Psalm 110; 1 Chronicles 23-25; Psalm 131, 138"
+  },
+  {
+    "date": "05-23",
+    "passage": "Psalm 139, 143-145; 1 Chronicles 26"
+  },
+  {
+    "date": "05-24",
+    "passage": "1 Chronicles 27-29"
+  },
+  {
+    "date": "05-25",
+    "passage": "Psalm 127, 111-118"
+  },
+  {
+    "date": "05-26",
+    "passage": "1 Kings 1-2"
+  },
+  {
+    "date": "05-27",
+    "passage": "Psalm 37, 71, 94"
+  },
+  {
+    "date": "05-28",
+    "passage": "Psalm 119"
+  },
+  {
+    "date": "05-29",
+    "passage": "1 Kings 3-4; 2 Chronicles 1"
+  },
+  {
+    "date": "05-30",
+    "passage": "Psalm 72; Song Of Solomon 1-5"
+  },
+  {
+    "date": "05-31",
+    "passage": "Song Of Solomon 6-8; Proverbs 1-3"
+  },
+  {
+    "date": "06-01",
+    "passage": "Proverbs 4-7"
+  },
+  {
+    "date": "06-02",
+    "passage": "Proverbs 8-12"
+  },
+  {
+    "date": "06-03",
+    "passage": "Proverbs 13-16"
+  },
+  {
+    "date": "06-04",
+    "passage": "Proverbs 17-21"
+  },
+  {
+    "date": "06-05",
+    "passage": "Proverbs 22-24; 1 Kings 5"
+  },
+  {
+    "date": "06-06",
+    "passage": "1 Kings 6; 2 Chronicles 2-3"
+  },
+  {
+    "date": "06-07",
+    "passage": "1 Kings 7; 2 Chronicles 4"
+  },
+  {
+    "date": "06-08",
+    "passage": "1 Kings 8"
+  },
+  {
+    "date": "06-09",
+    "passage": "2 Chronicles 5-6"
+  },
+  {
+    "date": "06-10",
+    "passage": "2 Chronicles 7; Psalm 136, 134, 146-150; 1 Kings 9"
+  },
+  {
+    "date": "06-11",
+    "passage": "2 Chronicles 8; Proverbs 25-27"
+  },
+  {
+    "date": "06-12",
+    "passage": "Proverbs 28-29; Ecclesiastes 1-2"
+  },
+  {
+    "date": "06-13",
+    "passage": "Ecclesiastes 3-6"
+  },
+  {
+    "date": "06-14",
+    "passage": "Ecclesiastes 7-11"
+  },
+  {
+    "date": "06-15",
+    "passage": "Ecclesiastes 12; 1 Kings 10-11"
+  },
+  {
+    "date": "06-16",
+    "passage": "2 Chronicles 9; Proverbs 30-31"
+  },
+  {
+    "date": "06-17",
+    "passage": "1 Kings 12-13"
+  },
+  {
+    "date": "06-18",
+    "passage": "1 Kings 14; 2 Chronicles 10-11"
+  },
+  {
+    "date": "06-19",
+    "passage": "2 Chronicles 12; 1 Kings 15; 2 Chronicles 13"
+  },
+  {
+    "date": "06-20",
+    "passage": "2 Chronicles 14-16; 1 Kings 16"
+  },
+  {
+    "date": "06-21",
+    "passage": "2 Chronicles 17; 1 Kings 17-18"
+  },
+  {
+    "date": "06-22",
+    "passage": "1 Kings 19-20"
+  },
+  {
+    "date": "06-23",
+    "passage": "1 Kings 21"
+  },
+  {
+    "date": "06-24",
+    "passage": "1 Kings 22; 2 Chronicles 18-19"
+  },
+  {
+    "date": "06-25",
+    "passage": "2 Chronicles 20-22"
+  },
+  {
+    "date": "06-26",
+    "passage": "2 Chronicles 23; Obadiah 1; Psalm 82-83; 2 Kings 1"
+  },
+  {
+    "date": "06-27",
+    "passage": "2 Kings 2-3"
+  },
+  {
+    "date": "06-28",
+    "passage": "2 Kings 4-5"
+  },
+  {
+    "date": "06-29",
+    "passage": "2 Kings 6-7"
+  },
+  {
+    "date": "06-30",
+    "passage": "2 Kings 8-9"
+  },
+  {
+    "date": "07-01",
+    "passage": "2 Kings 10-12"
+  },
+  {
+    "date": "07-02",
+    "passage": "2 Kings 13; 2 Chronicles 24"
+  },
+  {
+    "date": "07-03",
+    "passage": "2 Kings 14; 2 Chronicles 25; Jonah 1-2"
+  },
+  {
+    "date": "07-04",
+    "passage": "Jonah 3-4; 2 Kings 15; 2 Chronicles 26"
+  },
+  {
+    "date": "07-05",
+    "passage": "Isaiah 1-3"
+  },
+  {
+    "date": "07-06",
+    "passage": "Isaiah 4-7"
+  },
+  {
+    "date": "07-07",
+    "passage": "Isaiah 8; Amos 1-4"
+  },
+  {
+    "date": "07-08",
+    "passage": "Amos 5-8"
+  },
+  {
+    "date": "07-09",
+    "passage": "Amos 9; 2 Chronicles 27; Isaiah 9-10"
+  },
+  {
+    "date": "07-10",
+    "passage": "Isaiah 11-12; Micah 1-4"
+  },
+  {
+    "date": "07-11",
+    "passage": "Micah 5-7; 2 Chronicles 28"
+  },
+  {
+    "date": "07-12",
+    "passage": "2 Kings 16-17"
+  },
+  {
+    "date": "07-13",
+    "passage": "Isaiah 13-16"
+  },
+  {
+    "date": "07-14",
+    "passage": "Isaiah 17-21"
+  },
+  {
+    "date": "07-15",
+    "passage": "Isaiah 22-26"
+  },
+  {
+    "date": "07-16",
+    "passage": "Isaiah 27; 2 Kings 18"
+  },
+  {
+    "date": "07-17",
+    "passage": "2 Chronicles 29-31"
+  },
+  {
+    "date": "07-18",
+    "passage": "Psalm 48; Hosea 1-4"
+  },
+  {
+    "date": "07-19",
+    "passage": "Hosea 5-10"
+  },
+  {
+    "date": "07-20",
+    "passage": "Hosea 11-14; Isaiah 28"
+  },
+  {
+    "date": "07-21",
+    "passage": "Isaiah 29-31"
+  },
+  {
+    "date": "07-22",
+    "passage": "Isaiah 32-36"
+  },
+  {
+    "date": "07-23",
+    "passage": "Isaiah 37-39"
+  },
+  {
+    "date": "07-24",
+    "passage": "Psalm 76; Isaiah 40-42"
+  },
+  {
+    "date": "07-25",
+    "passage": "Isaiah 43-44"
+  },
+  {
+    "date": "07-26",
+    "passage": "Isaiah 45-48"
+  },
+  {
+    "date": "07-27",
+    "passage": "2 Kings 19; Psalm 46, 80, 135"
+  },
+  {
+    "date": "07-28",
+    "passage": "Isaiah 49-52"
+  },
+  {
+    "date": "07-29",
+    "passage": "Isaiah 53-57"
+  },
+  {
+    "date": "07-30",
+    "passage": "Isaiah 58-61"
+  },
+  {
+    "date": "07-31",
+    "passage": "Isaiah 62-65"
+  },
+  {
+    "date": "08-01",
+    "passage": "Isaiah 66; 2 Kings 20-21"
+  },
+  {
+    "date": "08-02",
+    "passage": "2 Chronicles 32-33; Nahum 1"
+  },
+  {
+    "date": "08-03",
+    "passage": "Nahum 2-3; 2 Kings 22"
+  },
+  {
+    "date": "08-04",
+    "passage": "2 Kings 23; 2 Chronicles 34"
+  },
+  {
+    "date": "08-05",
+    "passage": "2 Chronicles 35; Zephaniah 1-2"
+  },
+  {
+    "date": "08-06",
+    "passage": "Zephaniah 3; Jeremiah 1-2"
+  },
+  {
+    "date": "08-07",
+    "passage": "Jeremiah 3-5"
+  },
+  {
+    "date": "08-08",
+    "passage": "Jeremiah 6-7"
+  },
+  {
+    "date": "08-09",
+    "passage": "Jeremiah 8-10"
+  },
+  {
+    "date": "08-10",
+    "passage": "Jeremiah 11-13"
+  },
+  {
+    "date": "08-11",
+    "passage": "Jeremiah 14-16"
+  },
+  {
+    "date": "08-12",
+    "passage": "Jeremiah 17-20"
+  },
+  {
+    "date": "08-13",
+    "passage": "Jeremiah 21-23"
+  },
+  {
+    "date": "08-14",
+    "passage": "Jeremiah 24-25"
+  },
+  {
+    "date": "08-15",
+    "passage": "Jeremiah 26-28"
+  },
+  {
+    "date": "08-16",
+    "passage": "Jeremiah 29-30"
+  },
+  {
+    "date": "08-17",
+    "passage": "Jeremiah 31-32"
+  },
+  {
+    "date": "08-18",
+    "passage": "Jeremiah 33-35"
+  },
+  {
+    "date": "08-19",
+    "passage": "Jeremiah 36-37"
+  },
+  {
+    "date": "08-20",
+    "passage": "Jeremiah 38-40"
+  },
+  {
+    "date": "08-21",
+    "passage": "Psalm 74, 79; 2 Kings 24-25"
+  },
+  {
+    "date": "08-22",
+    "passage": "2 Chronicles 36; Habakkuk 1-3"
+  },
+  {
+    "date": "08-23",
+    "passage": "Jeremiah 41-43"
+  },
+  {
+    "date": "08-24",
+    "passage": "Jeremiah 44-47"
+  },
+  {
+    "date": "08-25",
+    "passage": "Jeremiah 48-49"
+  },
+  {
+    "date": "08-26",
+    "passage": "Jeremiah 50"
+  },
+  {
+    "date": "08-27",
+    "passage": "Jeremiah 51-52"
+  },
+  {
+    "date": "08-28",
+    "passage": "Lamentations 1-2"
+  },
+  {
+    "date": "08-29",
+    "passage": "Lamentations 3-5"
+  },
+  {
+    "date": "08-30",
+    "passage": "Ezekiel 1-4"
+  },
+  {
+    "date": "08-31",
+    "passage": "Ezekiel 5-7"
+  },
+  {
+    "date": "09-01",
+    "passage": "Ezekiel 8-11"
+  },
+  {
+    "date": "09-02",
+    "passage": "Ezekiel 12-14"
+  },
+  {
+    "date": "09-03",
+    "passage": "Ezekiel 15-16"
+  },
+  {
+    "date": "09-04",
+    "passage": "Ezekiel 17-19"
+  },
+  {
+    "date": "09-05",
+    "passage": "Ezekiel 20-21"
+  },
+  {
+    "date": "09-06",
+    "passage": "Ezekiel 22-23"
+  },
+  {
+    "date": "09-07",
+    "passage": "Ezekiel 24-26"
+  },
+  {
+    "date": "09-08",
+    "passage": "Ezekiel 27-28"
+  },
+  {
+    "date": "09-09",
+    "passage": "Ezekiel 29-31"
+  },
+  {
+    "date": "09-10",
+    "passage": "Ezekiel 32-33"
+  },
+  {
+    "date": "09-11",
+    "passage": "Ezekiel 34-36"
+  },
+  {
+    "date": "09-12",
+    "passage": "Ezekiel 37-38"
+  },
+  {
+    "date": "09-13",
+    "passage": "Ezekiel 39-40"
+  },
+  {
+    "date": "09-14",
+    "passage": "Ezekiel 41-43"
+  },
+  {
+    "date": "09-15",
+    "passage": "Ezekiel 44-45"
+  },
+  {
+    "date": "09-16",
+    "passage": "Ezekiel 46-47"
+  },
+  {
+    "date": "09-17",
+    "passage": "Ezekiel 48; Joel 1-2"
+  },
+  {
+    "date": "09-18",
+    "passage": "Joel 3; Daniel 1-2"
+  },
+  {
+    "date": "09-19",
+    "passage": "Daniel 3-4"
+  },
+  {
+    "date": "09-20",
+    "passage": "Daniel 5-6"
+  },
+  {
+    "date": "09-21",
+    "passage": "Daniel 7-8"
+  },
+  {
+    "date": "09-22",
+    "passage": "Daniel 9-10"
+  },
+  {
+    "date": "09-23",
+    "passage": "Daniel 11-12; Ezra 1"
+  },
+  {
+    "date": "09-24",
+    "passage": "Ezra 2-4"
+  },
+  {
+    "date": "09-25",
+    "passage": "Ezra 5-6; Psalm 137; Haggai 1"
+  },
+  {
+    "date": "09-26",
+    "passage": "Haggai 2; Zechariah 1-5"
+  },
+  {
+    "date": "09-27",
+    "passage": "Zechariah 6-9"
+  },
+  {
+    "date": "09-28",
+    "passage": "Zechariah 10-14"
+  },
+  {
+    "date": "09-29",
+    "passage": "Esther 1-3"
+  },
+  {
+    "date": "09-30",
+    "passage": "Esther 4-8"
+  },
+  {
+    "date": "10-01",
+    "passage": "Esther 9-10; Ezra 7"
+  },
+  {
+    "date": "10-02",
+    "passage": "Ezra 8-9"
+  },
+  {
+    "date": "10-03",
+    "passage": "Ezra 10; Nehemiah 1-3"
+  },
+  {
+    "date": "10-04",
+    "passage": "Nehemiah 4-6"
+  },
+  {
+    "date": "10-05",
+    "passage": "Nehemiah 7-8"
+  },
+  {
+    "date": "10-06",
+    "passage": "Nehemiah 9-10"
+  },
+  {
+    "date": "10-07",
+    "passage": "Nehemiah 11-13"
+  },
+  {
+    "date": "10-08",
+    "passage": "Psalm 126; Malachi 1-4"
+  },
+  {
+    "date": "10-09",
+    "passage": "Luke 1; John 1"
+  },
+  {
+    "date": "10-10",
+    "passage": "Matthew 1; Luke 2"
+  },
+  {
+    "date": "10-11",
+    "passage": "Matthew 2-3; Mark 1"
+  },
+  {
+    "date": "10-12",
+    "passage": "Luke 3; Matthew 4; Luke 4"
+  },
+  {
+    "date": "10-13",
+    "passage": "Luke 5; John 2-3"
+  },
+  {
+    "date": "10-14",
+    "passage": "John 4; Matthew 8; Mark 2"
+  },
+  {
+    "date": "10-15",
+    "passage": "John 5; Matthew 12"
+  },
+  {
+    "date": "10-16",
+    "passage": "Mark 3; Luke 6"
+  },
+  {
+    "date": "10-17",
+    "passage": "Matthew 5-6"
+  },
+  {
+    "date": "10-18",
+    "passage": "Matthew 7, 9; Luke 7"
+  },
+  {
+    "date": "10-19",
+    "passage": "Matthew 11; Luke 11"
+  },
+  {
+    "date": "10-20",
+    "passage": "Matthew 13; Luke 8"
+  },
+  {
+    "date": "10-21",
+    "passage": "Mark 4-5"
+  },
+  {
+    "date": "10-22",
+    "passage": "Matthew 10, 14"
+  },
+  {
+    "date": "10-23",
+    "passage": "Mark 6; Luke 9"
+  },
+  {
+    "date": "10-24",
+    "passage": "John 6"
+  },
+  {
+    "date": "10-25",
+    "passage": "Matthew 15; Mark 7; Matthew 16"
+  },
+  {
+    "date": "10-26",
+    "passage": "Mark 8; Matthew 17; Mark 9"
+  },
+  {
+    "date": "10-27",
+    "passage": "Matthew 18; John 7"
+  },
+  {
+    "date": "10-28",
+    "passage": "John 8-9"
+  },
+  {
+    "date": "10-29",
+    "passage": "John 10; Luke 10"
+  },
+  {
+    "date": "10-30",
+    "passage": "Luke 12-13"
+  },
+  {
+    "date": "10-31",
+    "passage": "Luke 14-16"
+  },
+  {
+    "date": "11-01",
+    "passage": "Luke 17; John 11"
+  },
+  {
+    "date": "11-02",
+    "passage": "Luke 18; Matthew 19; Mark 10"
+  },
+  {
+    "date": "11-03",
+    "passage": "Matthew 20-21"
+  },
+  {
+    "date": "11-04",
+    "passage": "Luke 19; Mark 11"
+  },
+  {
+    "date": "11-05",
+    "passage": "John 12; Matthew 22; Mark 12"
+  },
+  {
+    "date": "11-06",
+    "passage": "Matthew 23; Luke 20"
+  },
+  {
+    "date": "11-07",
+    "passage": "Luke 21; Mark 13; Matthew 24"
+  },
+  {
+    "date": "11-08",
+    "passage": "Matthew 25"
+  },
+  {
+    "date": "11-09",
+    "passage": "Matthew 26; Mark 14"
+  },
+  {
+    "date": "11-10",
+    "passage": "Luke 22"
+  },
+  {
+    "date": "11-11",
+    "passage": "John 13-15"
+  },
+  {
+    "date": "11-12",
+    "passage": "John 16-17; Matthew 27"
+  },
+  {
+    "date": "11-13",
+    "passage": "Mark 15; Luke 23"
+  },
+  {
+    "date": "11-14",
+    "passage": "John 18-19"
+  },
+  {
+    "date": "11-15",
+    "passage": "Matthew 28; Mark 16; Luke 24"
+  },
+  {
+    "date": "11-16",
+    "passage": "John 20-21; Acts 1"
+  },
+  {
+    "date": "11-17",
+    "passage": "Acts 2-4"
+  },
+  {
+    "date": "11-18",
+    "passage": "Acts 5-7"
+  },
+  {
+    "date": "11-19",
+    "passage": "Acts 8-9"
+  },
+  {
+    "date": "11-20",
+    "passage": "Acts 10-11"
+  },
+  {
+    "date": "11-21",
+    "passage": "Acts 12-13"
+  },
+  {
+    "date": "11-22",
+    "passage": "Acts 14; James 1-4"
+  },
+  {
+    "date": "11-23",
+    "passage": "James 5; Acts 15-16"
+  },
+  {
+    "date": "11-24",
+    "passage": "Galatians 1-3"
+  },
+  {
+    "date": "11-25",
+    "passage": "Galatians 4-6; Acts 17"
+  },
+  {
+    "date": "11-26",
+    "passage": "1 Thessalonians 1-5; 2 Thessalonians 1"
+  },
+  {
+    "date": "11-27",
+    "passage": "2 Thessalonians 2-3; Acts 18-19"
+  },
+  {
+    "date": "11-28",
+    "passage": "1 Corinthians 1-4"
+  },
+  {
+    "date": "11-29",
+    "passage": "1 Corinthians 5-8"
+  },
+  {
+    "date": "11-30",
+    "passage": "1 Corinthians 9-11"
+  },
+  {
+    "date": "12-01",
+    "passage": "1 Corinthians 12-14"
+  },
+  {
+    "date": "12-02",
+    "passage": "1 Corinthians 15-16; 2 Corinthians 1"
+  },
+  {
+    "date": "12-03",
+    "passage": "2 Corinthians 2-6"
+  },
+  {
+    "date": "12-04",
+    "passage": "2 Corinthians 7-11"
+  },
+  {
+    "date": "12-05",
+    "passage": "2 Corinthians 12-13; Romans 1"
+  },
+  {
+    "date": "12-06",
+    "passage": "Romans 2-5"
+  },
+  {
+    "date": "12-07",
+    "passage": "Romans 6-8"
+  },
+  {
+    "date": "12-08",
+    "passage": "Romans 9-12"
+  },
+  {
+    "date": "12-09",
+    "passage": "Romans 13-16"
+  },
+  {
+    "date": "12-10",
+    "passage": "Acts 20-21"
+  },
+  {
+    "date": "12-11",
+    "passage": "Acts 22-24"
+  },
+  {
+    "date": "12-12",
+    "passage": "Acts 25-27"
+  },
+  {
+    "date": "12-13",
+    "passage": "Acts 28; Colossians 1"
+  },
+  {
+    "date": "12-14",
+    "passage": "Colossians 2-4; Philemon 1; Ephesians 1"
+  },
+  {
+    "date": "12-15",
+    "passage": "Ephesians 2-5"
+  },
+  {
+    "date": "12-16",
+    "passage": "Ephesians 6; Philippians 1-3"
+  },
+  {
+    "date": "12-17",
+    "passage": "Philippians 4; 1 Timothy 1-4"
+  },
+  {
+    "date": "12-18",
+    "passage": "1 Timothy 5-6; Titus 1-3; 1 Peter 1"
+  },
+  {
+    "date": "12-19",
+    "passage": "1 Peter 2-5"
+  },
+  {
+    "date": "12-20",
+    "passage": "Hebrews 1-6"
+  },
+  {
+    "date": "12-21",
+    "passage": "Hebrews 7-9"
+  },
+  {
+    "date": "12-22",
+    "passage": "Hebrews 10-12"
+  },
+  {
+    "date": "12-23",
+    "passage": "Hebrews 13; 2 Timothy 1-4"
+  },
+  {
+    "date": "12-24",
+    "passage": "2 Peter 1-3; Jude 1"
+  },
+  {
+    "date": "12-25",
+    "passage": "1 John 1-4"
+  },
+  {
+    "date": "12-26",
+    "passage": "1 John 5; 2 John 1; 3 John 1; Revelation 1-2"
+  },
+  {
+    "date": "12-27",
+    "passage": "Revelation 3-6"
+  },
+  {
+    "date": "12-28",
+    "passage": "Revelation 7-10"
+  },
+  {
+    "date": "12-29",
+    "passage": "Revelation 11-15"
+  },
+  {
+    "date": "12-30",
+    "passage": "Revelation 16-18"
+  },
+  {
+    "date": "12-31",
+    "passage": "Revelation 19-22"
+  }
+]
