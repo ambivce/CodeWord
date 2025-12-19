@@ -7,7 +7,7 @@ import * as vscode from "vscode";
 
 suite("Extension Activation", () => {
   test("Extension should activate", async () => {
-    const extension = vscode.extensions.getExtension("ambivce.code-word");
+    const extension = vscode.extensions.getExtension("ambivcestudio.code-word");
 
     assert.ok(extension, "Extension not found");
 

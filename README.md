@@ -11,7 +11,7 @@ CodeWord offers the following key features:
 - Manual Command: CodeWord: Unsheath
   Opens a picker to select book, chapter, and verse manually.
 
-  ![CodeWord Unsheath](images/codeword-unsheath.gif)
+  ![CodeWord Unsheath](https://raw.githubusercontent.com/ambivce/CodeWord/refs/heads/main/images/codeword-unsheath.gif)
 
 - New Split Editor
   Read Scripture alongside your development work without disruption.
@@ -22,7 +22,7 @@ CodeWord offers the following key features:
 - Multiple Daily Times
   Configure several reading or meditation times per day.
 
-  ![CodeWord Meditation/Reading Plan](images/Med-Read.gif)
+  ![CodeWord Meditation/Reading Plan](https://raw.githubusercontent.com/ambivce/CodeWord/refs/heads/main/images/Med-Read.gif)
 
 ## Requirements
 
@@ -45,7 +45,7 @@ This extension contributes the following settings:
 
 ## Release Notes
 
-### 1.0.0
+### 0.1.0
 
 - Initial release of CodeWord
 - Meditation mode with configurable bible books and chapters

@@ -2,7 +2,7 @@
 
 ## Initial release
 
-[1.0.0] – Features Added
+[0.1.0] – Features Added
 
 - Meditation Mode
 

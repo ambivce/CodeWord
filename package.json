@@ -1,21 +1,34 @@
 {
   "name": "code-word",
   "displayName": "CodeWord",
-  "publisher": "ambivce",
+  "publisher": "ambivcestudio",
   "description": "CodeWord brings Scripture into your development workflow. Schedule Bible reading plans or meditation passages, and Scripture opens quietly when you need it.",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.102.0"
   },
   "categories": [
+    "Education",
+    "Visualization",
     "Other"
   ],
+  "keywords": [
+    "bible",
+    "devotional",
+    "meditation",
+    "reading plan",
+    "focus",
+    "daily habit",
+    "study",
+    "scripture"
+  ],
+  "icon": "resources/codeword.png",
   "activationEvents": [
     "onStartupFinished"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/codeword.git"
+    "url": "https://github.com/ambivce/CodeWord"
   },
   "main": "./dist/extension.js",
   "contributes": {
