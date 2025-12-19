@@ -1,6 +1,7 @@
 {
   "name": "code-word",
   "displayName": "CodeWord",
+  "publisher": "ambivce",
   "description": "CodeWord brings Scripture into your development workflow. Schedule Bible reading plans or meditation passages, and Scripture opens quietly when you need it.",
   "version": "0.0.1",
   "engines": {
