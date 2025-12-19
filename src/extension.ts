@@ -254,21 +254,23 @@ function openBibleWebview(
   context: vscode.ExtensionContext,
   entries: { book: string; chapters: number[] }[]
 ) {
-  if (!bibleStudyPanel) {
+  if (bibleStudyPanel) {
+    bibleStudyPanel.reveal(vscode.ViewColumn.Beside);
+  } else {
     // First time → open one
     bibleStudyPanel = vscode.window.createWebviewPanel(
       "readingPlanView",
       `${mode === "Meditation" ? "Bible Meditation" : "Bible Reading"} Plan`,
-      vscode.ViewColumn.One,
+      vscode.ViewColumn.Beside,
       {
         enableScripts: true,
       }
     );
-
-    bibleStudyPanel.onDidDispose(() => {
-      bibleStudyPanel = undefined;
-    });
   }
+
+  bibleStudyPanel.onDidDispose(() => {
+    bibleStudyPanel = undefined;
+  });
 
   if (mode) {
     const bible = loadStudyContent(context, mode, true);

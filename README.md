@@ -1,6 +1,6 @@
 # CodeWord README
 
-CodeWord is a VS Code extension that brings Scripture reading and meditation into your development workflow. It allows you to schedule daily Bible passages or meditate on selected verses without leaving your coding environment. The extension respects your focus, opens passages in a clean split view, and supports both offline and reading-plan modes.
+CodeWord is a VS Code extension that brings Scripture reading and meditation into your development workflow. It allows you to schedule daily Bible passages or meditate on selected chapters, verses without leaving your coding environment. The extension respects your focus, opens passages in a clean split view, and supports both offline and reading-plan modes.
 
 ## Features
 
@@ -13,7 +13,7 @@ CodeWord offers the following key features:
 
   ![CodeWord Unsheath](images/codeword-unsheath.gif)
 
-- New Editor Column
+- New Split Editor
   Read Scripture alongside your development work without disruption.
 - Meditation Mode
   Automatically opens selected Bible passages at configured times for reflection and devotion.
@@ -26,7 +26,7 @@ CodeWord offers the following key features:
 
 ## Requirements
 
-- VS Code 1.102.1 or later
+- VS Code 1.102.0 or later
 - No external dependencies required; works offline
 - Optional: Configure your Bible times and reading plan in settings
 
@@ -34,25 +34,23 @@ CodeWord offers the following key features:
 
 This extension contributes the following settings:
 
-- bible.mode — Choose the mode for CodeWord (Meditation or Reading Plan).
-- bible.meditation.books — List of passages for meditation mode.
-- bible.times — Times of day (HH:MM) to show Bible readings.
+- CodeWord.mode — Choose the mode for CodeWord (Meditation or Reading Plan).
+- CodeWord.meditation.books — List of passages for meditation mode.
+- CodeWord.times — Times of day (HH:MM) to show Bible readings.
 
 ## Known Issues
 
 - The extension activates only when VS Code starts or a command is run. Scheduled meditation does not run if VS Code is closed.
-- Webview panels currently do not support custom icons in VS Code.
+- Bible Book aliases are not supported yet, Books of the Bible need to be spelt out in full.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
 ### 1.0.0
 
-- Initial release of CodeWord: Unsheath
-- Meditation mode with scheduled passages
-- Reading plan mode with configurable book and chapters
-- Manual command CodeWord: Unsheath to pick book, chapter, and verse
+- Initial release of CodeWord
+- Meditation mode with configurable bible books and chapters
+- Reading plan mode with scheduled passages
+- Manual command `CodeWord: Unsheath` to pick book, chapter, and verse
 - Offline Bible support in JSON format
 
 ---
