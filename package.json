@@ -5,7 +5,7 @@
   "description": "CodeWord brings Scripture into your development workflow. Schedule Bible reading plans or meditation passages, and Scripture opens quietly when you need it.",
   "version": "0.1.0",
   "engines": {
-    "vscode": "^1.102.0"
+    "vscode": "^1.107.0"
   },
   "categories": [
     "Education",
@@ -30,11 +30,12 @@
     "type": "git",
     "url": "https://github.com/ambivce/CodeWord"
   },
+  "license": "MIT",
   "main": "./dist/extension.js",
   "contributes": {
     "configuration": {
       "type": "object",
-      "title": "CodeWord Extension Settings",
+      "title": "CodeWord",
       "properties": {
         "CodeWord.meditation.books": {
           "type": "array",
@@ -65,7 +66,14 @@
     ]
   },
   "files": [
-    "bible-data"
+    "bible-data",
+    "dist",
+    "resources",
+    "package.json",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE",
+    "images"
   ],
   "scripts": {
     "vscode:prepublish": "pnpm run package",

@@ -4,21 +4,34 @@ import * as fs from "fs";
 
 let meditationInterval: NodeJS.Timeout | undefined;
 let bibleStudyPanel: vscode.WebviewPanel | undefined;
-const config = vscode.workspace.getConfiguration("CodeWord");
-const mode = config.get<string>("mode");
 
 // This method is called when your extension is activated
 // Your extension is activated the very first time the command is executed
 export function activate(context: vscode.ExtensionContext) {
   startMeditationScheduler(context);
 
+  context.subscriptions.push(
+    vscode.workspace.onDidChangeConfiguration((e) => {
+      if (
+        e.affectsConfiguration("CodeWord.mode") ||
+        e.affectsConfiguration("CodeWord.times") ||
+        e.affectsConfiguration("CodeWord.meditation.books")
+      ) {
+        disposeBiblePanel();
+        startMeditationScheduler(context);
+      }
+    })
+  );
+
   const disposable = vscode.commands.registerCommand(
     "code-word.unsheath",
     async () => {
       // The code you place here will be executed every time your command is executed
       // Display a message box to the user
+      const config = vscode.workspace.getConfiguration("CodeWord");
+      const mode = config.get<string>("mode");
       if (mode) {
-        const bible = loadStudyContent(context, mode, true);
+        const bible = loadStudyContent(context, "Bible");
         // 1. Pick Book
         const book = await vscode.window.showQuickPick(Object.keys(bible), {
           placeHolder: "Select a book",
@@ -45,6 +58,13 @@ export function activate(context: vscode.ExtensionContext) {
     }
   );
   context.subscriptions.push(disposable);
+}
+
+function disposeBiblePanel() {
+  if (bibleStudyPanel) {
+    bibleStudyPanel.dispose();
+    bibleStudyPanel = undefined;
+  }
 }
 
 function normalizeTime(input: string): string | null {
@@ -94,10 +114,12 @@ function normalizeTime(input: string): string | null {
 function startMeditationScheduler(context: vscode.ExtensionContext) {
   if (meditationInterval) {
     clearInterval(meditationInterval);
+    meditationInterval = undefined;
   }
 
   meditationInterval = setInterval(() => {
     const config = vscode.workspace.getConfiguration("CodeWord");
+    const mode = config.get<string>("mode");
 
     const times = config.get<string[]>("times") || [];
 
@@ -194,11 +216,9 @@ function getTodayKey(): string {
 }
 
 function getTodayReading(context: vscode.ExtensionContext) {
-  if (mode) {
-    const plan = loadStudyContent(context, mode, false);
-    const todayKey = getTodayKey();
-    return plan.find((entry: any) => entry.date === todayKey);
-  }
+  const plan = loadStudyContent(context, "Reading Plan");
+  const todayKey = getTodayKey();
+  return plan.find((entry: any) => entry.date === todayKey);
 }
 
 function handleReadingPlan(
@@ -232,48 +252,34 @@ function openReadingPlanPassage(
 
 function loadStudyContent(
   context: vscode.ExtensionContext,
-  mode: string,
-  loadBible: boolean
+  source: "Bible" | "Reading Plan"
 ) {
-  let jsonToLoad;
-  if (mode === "Meditation" || loadBible) {
-    jsonToLoad = "kjv.json";
-  } else {
-    jsonToLoad = "readingPlan.json";
-  }
-  const biblePath = path.join(
-    context.extensionPath,
-    "bible-data",
-    `${jsonToLoad}`
-  );
-  const raw = fs.readFileSync(biblePath, "utf8");
-  return JSON.parse(raw);
+  const file = source === "Bible" ? "kjv.json" : "readingPlan.json";
+  const filePath = path.join(context.extensionPath, "bible-data", file);
+  return JSON.parse(fs.readFileSync(filePath, "utf8"));
 }
 
 function openBibleWebview(
   context: vscode.ExtensionContext,
   entries: { book: string; chapters: number[] }[]
 ) {
-  if (bibleStudyPanel) {
-    bibleStudyPanel.reveal(vscode.ViewColumn.Beside);
-  } else {
-    // First time → open one
+  const config = vscode.workspace.getConfiguration("CodeWord");
+  const mode = config.get<string>("mode");
+  if (!bibleStudyPanel) {
     bibleStudyPanel = vscode.window.createWebviewPanel(
       "readingPlanView",
       `${mode === "Meditation" ? "Bible Meditation" : "Bible Reading"} Plan`,
       vscode.ViewColumn.Beside,
-      {
-        enableScripts: true,
-      }
+      { enableScripts: true }
     );
+
+    bibleStudyPanel.onDidDispose(() => {
+      bibleStudyPanel = undefined;
+    });
   }
 
-  bibleStudyPanel.onDidDispose(() => {
-    bibleStudyPanel = undefined;
-  });
-
   if (mode) {
-    const bible = loadStudyContent(context, mode, true);
+    const bible = loadStudyContent(context, "Bible");
     let type = mode === "Meditation" ? "Meditation" : "Reading";
     let html = `<h1>Bible ${type} Plan</h1>`;
 
@@ -302,9 +308,22 @@ function openBibleWebview(
     bibleStudyPanel.iconPath = vscode.Uri.file(
       path.join(context.extensionPath, "resources", "bible-icon.svg")
     );
+    const csp = `<meta http-equiv="Content-Security-Policy"
+        content="
+        default-src 'none';
+        img-src ${bibleStudyPanel.webview.cspSource};
+        style-src ${bibleStudyPanel.webview.cspSource} 'unsafe-inline';
+      ">
+    `;
     bibleStudyPanel.webview.html = `
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  ${csp}
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodeWord</title>
+</head>
 <body>
 ${html}
 </body>
